@@ -47,6 +47,7 @@ int main() {
   Pessoa *pessoa2 = new Pessoa("Gustavo", *pessoa1);
 
   std::cout << "Pessoa: " << pessoa1->GetNome() << endl;
+
   std::cout << "Cidade: " << pessoa1->GetEndereco().GetCidade() << endl;
   std::cout << "Rua: " << pessoa1->GetEndereco().GetRua() << endl;
   std::cout << "Cep: " << pessoa1->GetEndereco().GetCEP() << endl << endl;
